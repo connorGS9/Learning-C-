@@ -6,7 +6,9 @@ cpp#include <cmath>
 Core Mathematical Functions
 Power and Root Functions
 The power function pow(base, exponent) raises a number to a given power, while sqrt() computes square roots:
-cpp#include <iostream>
+```
+cpp
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -25,9 +27,13 @@ int main() {
     
     return 0;
 }
+```
+
 Absolute Value Functions
 The absolute value functions remove the negative sign from numbers. C++ provides different versions for different data types:
-cpp#include <iostream>
+```
+cpp
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -42,9 +48,13 @@ int main() {
     
     return 0;
 }
+```
+
 Rounding Functions
 C++ offers multiple rounding options depending on your needs:
-cpp#include <iostream>
+```
+cpp
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -62,9 +72,13 @@ int main() {
     
     return 0;
 }
+```
+
 Trigonometric Functions
 Trigonometric functions work with angles in radians:
-cpp#include <iostream>
+```
+cpp
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -82,9 +96,13 @@ int main() {
     
     return 0;
 }
+```
+
 Logarithmic Functions
 Logarithmic functions are essential for many algorithms:
-cpp#include <iostream>
+```
+cpp
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -98,9 +116,12 @@ int main() {
     
     return 0;
 }
+```
 Practical Competitive Programming Example
 Here's how these functions work together in a typical competitive programming scenario:
-cpp#include <iostream>
+```
+cpp
+#include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -125,6 +146,7 @@ int main() {
     
     return 0;
 }
+```
 Important Notes
 Return Types: Most math functions return double even if you pass integers, so be prepared to cast if needed:
 cppint result = (int)pow(2, 3);  // Cast to int if needed
