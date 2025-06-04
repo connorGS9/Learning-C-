@@ -1,4 +1,4 @@
-C++ Math Functions: A Complete Guide
+                                                                    * C++ Math Functions Guide *
 In C++, mathematical functions are provided through the <cmath> header (or sometimes <math.h>). Unlike Java where you use Math.pow(), C++ functions don't require a class prefix - you call them directly.
 Essential Header
 To use mathematical functions, you must include the math library:
